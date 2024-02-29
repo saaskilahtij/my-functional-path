@@ -1,20 +1,19 @@
-const conjoin = (flock_x, flock_y) => flock_x + flock_y;
-const breed = (flock_x, flock_y) => flock_x * flock_y;
+// Naming here should be more descriptive, but I'm following the book's example
+
+const conjoin = (flockX, flockY) => flockX + flockY;
+const breed = (flockX, flockY) => flockX * flockY;
 /*
   * Case where the other flock raids the first one, kills the leader
-  * and takes others as prisoners.
+  * and takes others as prisoners. A hard thing to name.
 */
-const raidFlock = (flock_x, flock_y) => {
-  const newFlockY = Math.max(0, flock_y - 1);
-  const newFlockX = flock_x + newFlockY;
+const raidFlock = (flockX, flockY) => {
+  const newFlockY = flockY
+  const newFlockX = flockX + newFlockY - 1;
   return [newFlockX, 0]
 }
 
-/*
-  * Case where the first flock raids the other one, kills the leader
-*/
-const flock_x = 4;
-const flock_y = 2;
+const flockX = 4;
+const flockY = 2;
 
-const result = raidFlock(breed(flock_x, conjoin(flock_x, flock_y)), breed(flock_x, flock_y));
+const result = raidFlock(breed(flockX, conjoin(flockX, flockY)), breed(flockX, flockY));
 console.log(`Result: [${result}]`);
