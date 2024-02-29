@@ -13,8 +13,8 @@ const raidFlock = (flock_x, flock_y) => {
 /*
   * Case where the first flock raids the other one, kills the leader
 */
-const flock_a = 4;
-const flock_b = 2;
+const flock_x = 4;
+const flock_y = 2;
 
-const result = raidFlock(flock_a, flock_b);
-console.logl(`Result: {$result}`);
+const result = raidFlock(breed(flock_x, conjoin(flock_x, flock_y)), breed(flock_x, flock_y));
+console.log(`Result: [${result}]`);
