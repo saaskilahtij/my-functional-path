@@ -1,6 +1,7 @@
 # Takeaways
 
 - An internal state, like in OOP, can be anarchy in the I.T, or wild animal arithmetic! It is hard to keep track.
+- Functions should have no side-effects.
 - Keep the function naming precise. Not by the objects, but by the operations.
 - Function for raiding flocks, should be modularized better - keeping it to keep track of the progress.
 - Using mathematical properties for cleaning code!
