@@ -19,6 +19,7 @@ sub breed {
 }
 
 # Hard thing to name.
+# Turns out this is not functional programming!
 sub raid_flock {
   my ($flock_x, $flock_y) = @_;
   my new_flock_y = $flock_y;
