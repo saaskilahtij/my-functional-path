@@ -2,7 +2,7 @@
 
 *Best way to learn, is to learn for someone else.*
 
-This repository is meant to track and share my progress relating to functional programming. For the guide I am using mostly-adequate-guide (https://mostly-adequate.gitbook.io/mostly-adequate-guide/#do-it-yourself). This guide is meant for Javascript, but additionally I will be learning to write the same programs in Perl as well. Probably often filled with mistakes, but mistakes and naiveness is the only way.
+This repository is meant to track and share my progress relating to functional programming. For the guide I am using mostly-adequate-guide (https://mostly-adequate.gitbook.io/mostly-adequate-guide/#do-it-yourself). This guide is meant for Javascript, but additionally I will be learning to write the same programs in Perl and Haskell as well. Probably often filled with mistakes, but mistakes and naiveness is the only way.
 
 The repository will be structured in a way that there will be a folder containing notes and any programs written both in Javascript as well as with Perl and Haskell. Do not question why.
 
